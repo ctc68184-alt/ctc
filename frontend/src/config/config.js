@@ -1,6 +1,6 @@
 const DOMAIN = {
     local_domain: 'http://localhost:3001',
-    server_domain: 'https://capstone-project-server-seven.vercel.app'
+    server_domain: 'https://ctc-server-rho.vercel.app'
 
 }
 
