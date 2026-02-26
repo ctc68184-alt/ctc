@@ -4,7 +4,7 @@ import Topbar from './Topbar'
 import style from '../css/Users.module.css'
 import DOMAIN from '../config/config'
 import { MdDelete, MdCancel } from "react-icons/md";
-import { FaEdit } from "react-icons/fa";
+// import { FaEdit } from "react-icons/fa";
 
 const Users = () => {
     const [users, setUsers] = useState([])
@@ -30,12 +30,11 @@ const Users = () => {
     }, [])
 
 
-    const handleEditRole = async (user) => {
-        // console.log(user._id)
-        setRole(user.role)
-        setId(user._id)
-        setIsClick(!isClick)
-    }
+    // const handleEditRole = async (user) => {
+    //     setRole(user.role)
+    //     setId(user._id)
+    //     setIsClick(!isClick)
+    // }
 
     // submit edit role
     const handleSubmitEdit = async (e) => {

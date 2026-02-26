@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Navbar from './Navbar'
 import styles from '../css/Dashboard.module.css'
-import DOMAIN from '../config/config'
-import { useNavigate } from 'react-router-dom'
-import Topbar from './Topbar'
-import { MdAddBox, MdDelete } from "react-icons/md";
-import style from '../css/Request.module.css'
-import { RiPrinterFill } from "react-icons/ri";
-import { useReactToPrint } from "react-to-print";
+// import DOMAIN from '../config/config'
+// import { useNavigate } from 'react-router-dom'
+// import Topbar from './Topbar'
+// import { MdAddBox, MdDelete } from "react-icons/md";
+// import style from '../css/Request.module.css'
+// import { RiPrinterFill } from "react-icons/ri";
+// import { useReactToPrint } from "react-to-print";
 import InventorySummaryReport from './reports/InventorySummaryReport'
 // const token = localStorage.getItem("token")
-import img from '../images/ctc-logoo.jpg'
+// import img from '../images/ctc-logoo.jpg'
 import StockIn_Out_Report from './reports/StockIn_Out_Report'
 import ItemMovementReport from './reports/ItemMovementReport'
 import Damage_LostReport from './reports/Damage_LostReport'

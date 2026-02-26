@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import image from "../images/ctc logo.png"
+// import { useParams } from 'react-router-dom'
+// import image from "../images/ctc logo.png"
 import { useNavigate } from 'react-router-dom';
-import { MdCancel } from "react-icons/md";
+// import { MdCancel } from "react-icons/md";
 
 import styles from '../css/BorrowedItems.module.css'
 import DOMAIN from '../config/config'

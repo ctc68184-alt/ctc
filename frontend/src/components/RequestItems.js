@@ -3,13 +3,13 @@ import Navbar from './Navbar'
 import styles from '../css/Dashboard.module.css'
 import DOMAIN from '../config/config'
 import { data, useNavigate } from 'react-router-dom'
-import Topbar from './Topbar'
+// import Topbar from './Topbar'
 import { MdAddBox, MdDelete } from "react-icons/md";
-import style from '../css/Request.module.css'
-import { RiPrinterFill } from "react-icons/ri";
+// import style from '../css/Request.module.css'
+// import { RiPrinterFill } from "react-icons/ri";
 import { useReactToPrint } from "react-to-print";
 // const token = localStorage.getItem("token")
-import img from '../images/ctc-logoo.jpg'
+// import img from '../images/ctc-logoo.jpg'
 import BorrowForm from './BorrowForm';
 import { MdCancel } from "react-icons/md";
 
@@ -239,26 +239,26 @@ function RequestItems() {
     }
 
     // rejection
-    const rejectionButton = async () => {
-        try {
-            const response = await fetch(`${DOMAIN}/rejection`, {
-                method: 'POST',
-                credentials: 'include',
-                body: JSON.stringify({ reject })
-            })
+    // const rejectionButton = async () => {
+    //     try {
+    //         const response = await fetch(`${DOMAIN}/rejection`, {
+    //             method: 'POST',
+    //             credentials: 'include',
+    //             body: JSON.stringify({ reject })
+    //         })
 
-            const data = response.json()
-            if (!response.ok) {
-                console.log(response.statusText)
-                return
-            }
+    //         const data = response.json()
+    //         if (!response.ok) {
+    //             console.log(response.statusText)
+    //             return
+    //         }
 
-            console.log(data)
+    //         console.log(data)
 
-        } catch (error) {
-            console.log(error)
-        }
-    }
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
+    // }
 
     const handleAfterPrint = () => {
         return new Promise((resolve) => {
