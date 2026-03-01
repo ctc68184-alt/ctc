@@ -1,4 +1,4 @@
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 
@@ -23,7 +23,7 @@ import './App.css';
 // import Users from './components/Users.js';
 // import Reports from './components/Reports.js';
 // import RequestFullDetails from './components/RequestFullDetails.js';
-// import Home from './components/home/Home.js';
+import Home from './components/home/Home.js';
 // import RequesterSignUp from './components/requesterUser/RequesterSignUp.js';
 // import RequesterSignIn from './components/requesterUser/RequesterSignIn.js';
 // import BorrowedItemFullDetails from './components/BorrowedItemFullDetails.js';
@@ -32,9 +32,15 @@ import './App.css';
 // import Testing from './components/Test.js';
 
 function App() {
-  return <h1>hello wrold</h1>
-   
-  
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+
+      // </Routes>
+    // </BrowserRouter>
+  )
+
 }
 
 export default App;
