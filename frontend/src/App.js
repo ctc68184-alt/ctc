@@ -28,7 +28,7 @@ import RequesterSignUp from './components/requesterUser/RequesterSignUp.js';
 import RequesterSignIn from './components/requesterUser/RequesterSignIn.js';
 import BorrowedItemFullDetails from './components/BorrowedItemFullDetails.js';
 
-import Test from './components/Category.js';
+// import Test from './components/Category.js';
 // import Testing from './components/Test.js';
 
 function App() {
@@ -37,6 +37,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
+         <Route path='/admin-login' element={<Login />} />
 
         <Route path='/requester-sign-up' element={<RequesterSignUp />} />
         <Route path='/requester-login' element={<RequesterSignIn />} />
