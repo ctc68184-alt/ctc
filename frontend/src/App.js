@@ -32,14 +32,16 @@ import Home from './components/home/Home.js';
 // import Testing from './components/Test.js';
 
 function App() {
-  
+
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
 
-       </Routes>
-     </BrowserRouter>
+        <Route path='/requester-sign-up' element={<RequesterSignUp />} />
+        <Route path='/requester-login' element={<RequesterSignIn />} />
+      </Routes>
+    </BrowserRouter>
   )
 
 }
