@@ -32,41 +32,8 @@ import './App.css';
 // import Testing from './components/Test.js';
 
 function App() {
-  // pota 
   return <h1>hello wrold</h1>
-    // <BrowserRouter>
-      {/* <Routes> */}
-        {/* <Route path='/' element={<Home />} />
-        <Route path='/admin-login' element={<Login />} />
-
-        requester
-        <Route path='/requester-sign-up' element={<RequesterSignUp />} />
-        <Route path='/requester-login' element={<RequesterSignIn />} />
-
-        <Route path='/sign-up' element={<SignUp />} />
-        <Route path='/Dashboard' element={<Dashboard />} />
-        <Route path='/inventory' element={<Inventory />} />
-        <Route path='/borrowed-items' element={<BorrowedItems />} />
-        <Route path='/borrowed-item-details' element={<BorrowedItemFullDetails />} />
-        <Route path='/borrowed-transaction-details' element={<BorrowedTransaction />} />
-        <Route path='/returned-items' element={<ReturnedItems />} />
-        <Route path='/add-borrow-item' element={<AddBorrowItem />} />
-        <Route path='/merchandise' element={<Merchandise />} />
-        <Route path='/create-product' element={<CreateProduct />} />
-        <Route path='/get-purchase-history' element={<PurchaseHistory />} />
-        <Route path='/purchase-transaction-details' element={<MerchandiseTransaction />} />
-        <Route path='/manage-mechandise' element={<ManageMerchandise />} />
-        <Route path='/borrow-form' element={<BorrowForm />} />
-        <Route path='/forgot-password' element={<ForgotPassword />} />
-        <Route path='/settings' element={<Settings />} />
-        <Route path='/request-items' element={<RequestItems />} />
-        <Route path='/user-list' element={<Users />} />
-        <Route path='/reports' element={<Reports />} />
-        <Route path='/request-full-details' element={<RequestFullDetails />} />
-
-        <Route path='/test' element={<Test />} /> */}
-      // </Routes>
-    // </BrowserRouter>
+   
   
 }
 
