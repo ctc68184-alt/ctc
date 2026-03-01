@@ -32,13 +32,14 @@ import Home from './components/home/Home.js';
 // import Testing from './components/Test.js';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
 
-      // </Routes>
-    // </BrowserRouter>
+       </Routes>
+     </BrowserRouter>
   )
 
 }
