@@ -54,7 +54,7 @@ const RequesterSignIn = () => {
             <div style={{ display: 'flex', width: '60%', height: 'auto', backgroundColor: 'rgb(255, 187, 0)', padding: '2rem 2rem', borderRadius: "5px" }}>
 
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '50%' }}>
-                    <img src={img} style={{ width: '50%', height: 'auto' }} />
+                    <img src={img} style={{ width: '50%', height: 'auto' }} alt='' />
                 </div>
 
                 <form onSubmit={handleSubmit} style={{ width: '50%' }}>

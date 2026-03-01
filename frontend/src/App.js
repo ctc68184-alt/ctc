@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 
-// import Dashboard from './components/Dashboard';
+import Dashboard from './components/Dashboard';
 // import BorrowedItems from './components/BorrowedItems';
 // import AddBorrowItem from './components/AddBorrowItem';
 // import CreateProduct from './components/merchandise/CreateProduct';
@@ -13,10 +13,10 @@ import './App.css';
 // import Test from './components/Test.js';
 // import BorrowedTransaction from './components/BorrowedTransaction.js';
 // import MerchandiseTransaction from './components/merchandise/MerchandiseTransaction.js';
-// import SignUp from './components/SignUp.js';
+import SignUp from './components/SignUp.js';
 // import BorrowForm from './components/BorrowForm.js';
 // import ManageMerchandise from './components/merchandise/ManageMerchandise.js';
-// import Inventory from './components/Inventory.js';
+import Inventory from './components/Inventory.js';
 // import ReturnedItems from './components/ReturnedItems.js';
 // import Settings from './components/Settings.js';
 // import RequestItems from './components/RequestItems.js';
@@ -40,6 +40,10 @@ function App() {
 
         <Route path='/requester-sign-up' element={<RequesterSignUp />} />
         <Route path='/requester-login' element={<RequesterSignIn />} />
+
+                <Route path='/sign-up' element={<SignUp />} />
+        <Route path='/Dashboard' element={<Dashboard />} />
+        <Route path='/inventory' element={<Inventory />} />
       </Routes>
     </BrowserRouter>
   )
