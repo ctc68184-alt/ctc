@@ -24,8 +24,8 @@ import './App.css';
 // import Reports from './components/Reports.js';
 // import RequestFullDetails from './components/RequestFullDetails.js';
 import Home from './components/home/Home.js';
-// import RequesterSignUp from './components/requesterUser/RequesterSignUp.js';
-// import RequesterSignIn from './components/requesterUser/RequesterSignIn.js';
+import RequesterSignUp from './components/requesterUser/RequesterSignUp.js';
+import RequesterSignIn from './components/requesterUser/RequesterSignIn.js';
 // import BorrowedItemFullDetails from './components/BorrowedItemFullDetails.js';
 
 // import Test from './components/Category.js';
