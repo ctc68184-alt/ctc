@@ -33,9 +33,9 @@ import './App.css';
 
 function App() {
   // pota 
-  return (
-    <BrowserRouter>
-      <Routes>
+  return <h1>hello wrold</h1>
+    // <BrowserRouter>
+      {/* <Routes> */}
         {/* <Route path='/' element={<Home />} />
         <Route path='/admin-login' element={<Login />} />
 
@@ -65,9 +65,9 @@ function App() {
         <Route path='/request-full-details' element={<RequestFullDetails />} />
 
         <Route path='/test' element={<Test />} /> */}
-      </Routes>
-    </BrowserRouter>
-  );
+      // </Routes>
+    // </BrowserRouter>
+  
 }
 
 export default App;
