@@ -8,7 +8,7 @@ import AddBorrowItem from './components/AddBorrowItem';
 import CreateProduct from './components/merchandise/CreateProduct';
 import Merchandise from './components/merchandise/Merchandise.js';
 import PurchaseHistory from './components/merchandise/PurchaseHistory.js';
-// import Login from './components/Login.js';
+import Login from './components/Login.js';
 import ForgotPassword from './components/ForgotPassword.js';
 // import Test from './components/Test.js';
 import BorrowedTransaction from './components/BorrowedTransaction.js';
